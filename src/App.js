@@ -9,7 +9,7 @@ function App() {
   const handleSearch = async () => {
     try {
       const response = await axios.get(
-        `https://api.unsplash.com/search/photos?query=${searchTerm}&client_id=YOUR_UNSPLASH_ACCESS_KEY`
+        `https://api.unsplash.com/search/photos?query=${searchTerm}&client_id=BIi8I4bFrbYSe916pITZr7WHb-ZolYjJ2WSRunp44Xs`
       );
       setImages(response.data.results);
     } catch (error) {
